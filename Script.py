@@ -1,11 +1,11 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, Just Add Me To Your Group And Enjoy... """
+    START_TXT = """Hello {},
+My Name Is <a href=https://t.me/{}>{}</a>, Just Add Me To Your Group And Enjoy... """
 
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
 
-    ABOUT_TXT = """🦅 Name: <a href=https://t.me/FastFinderBot>Fast Finder</a>
+    ABOUT_TXT = """🦅 Name: <a href=https://t.me/{}>{}</a>
 🦹 Creator: <a href=https://t.me/YourX>YourX</a>
 🤖 Version: 4.0 ⚡ """
 
