@@ -7,9 +7,23 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
 🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
  
-    ABOUT_TXT = """🦅 Name: {}
-🦹 Creator: <a href=https://t.me/YourX>YourX</a>
-🤖 Version: 4.0 ⚡ """
+    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
+‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
+ ‣ My best friend : <a href='tg://settings'>ᴛʜɪs ᴘᴇʀsᴏɴ</a> 
+ ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>UPDATES</a> 
+ ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
+ ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
+ ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
+ ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
+ ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
+
+    SOURCE_TXT = """
+<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
+
+Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
+
+Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
+"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
