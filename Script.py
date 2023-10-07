@@ -2,8 +2,8 @@ class script(object):
     START_TXT = """Hello {},
 My Name Is {bot}. Just Add Me To Your Group And Enjoy... """
 
-     HELP_TXT = """𝙷𝙴𝚈 {}
-Here is the help for my COMMANDS."""
+     HELP_TXT = """<b>Hᴇʏ {}
+"""
  
     ABOUT_TXT = """🦅 Name: {}
 🦹 Creator: <a href=https://t.me/YourX>YourX</a>
