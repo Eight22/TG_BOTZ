@@ -5,18 +5,9 @@ My Name Is <a href=https://t.me/{}>{}</a>, Just Add Me To Your Group And Enjoy..
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
 
-  ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-🦅 Name: <a href=https://t.me/{}>{}</a>
+  ABOUT_TXT = """🦅 Name: <a href=https://t.me/{}>{}</a>
 🦹 Creator: <a href=https://t.me/YourX>YourX</a>
 🤖 Version: 4.0 ⚡ """
-
-    SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
-
-Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
-
-Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
-"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -109,20 +100,20 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
-
+    STATUS_TXT = """🗃️ Total Files: <code>{}</code>
+👪 Total Users: <code>{}</code>
+💬 Total Chats: <code>{}</code>
+📂 Used Storage: <code>{}</code> 
+🗂 Free Storage: <code>{}</code> """
     LOG_TEXT_G = """#NewGroup
-Gʀᴏᴜᴘ = {}(<code>{}</code>)
-Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
-Aᴅᴅᴇᴅ Bʏ - {}"""
-
-    LOG_TEXT_P = """#NewUser
-ID - <code>{}</code>
-Nᴀᴍᴇ - {}"""
+Group = {}(<code>{}</code>)
+Total Members = <code>{}</code>
+Added By - {}
+"""
+    LOG_TEXT_P = """🚩 #NewUser
+🆔 ID - <code>{}</code>
+🤹🏻 Name - {}
+"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
