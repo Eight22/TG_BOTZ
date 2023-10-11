@@ -5,7 +5,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, Just Add Me To Your Group And Enjoy..
     HELP_TXT = """Hey {}
 Here Is The Help For My Commands."""
 
-    ABOUT_TXT = """🦅 Name: <a href=https://t.me/{}>{}</a>
+   ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ : {}</b>
 🦹 Creator: <a href=https://t.me/YourX>YourX</a>
 🤖 Version: 4.0 ⚡ """
 
