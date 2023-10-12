@@ -7,9 +7,9 @@ Here Is The Help For My Commands."""
 
  
     ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/DesiSearchBot>Shreya Tyagi</a>
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/YourX'>YourX</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 4.0 [sᴛᴀʙʟᴇ]></b>"""
+👰 Name : <a href=https://t.me/DesiSearchBot>Shreya Tyagi</a>
+ 🦹 Creator : <a href='https://t.me/YourX'>YourX</a> 
+ 🤖 Version : 4.0 [sᴛᴀʙʟᴇ]></b>"""
 
     SOURCE_TXT = """
 <b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
