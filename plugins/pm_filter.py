@@ -1346,13 +1346,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('📁 File Store', callback_data='store_file'),   
-             InlineKeyboardButton('⚡ Telegraph', callback_data='tele') 
+             InlineKeyboardButton('📁 File Store ', callback_data='store_file'),   
+             InlineKeyboardButton('⚡ Telegraph ', callback_data='tele') 
          ], [ 
-             InlineKeyboardButton('🔗 Connections', callback_data='coct'), 
-             InlineKeyboardButton('🐱 Filters', callback_data='filters') 
+             InlineKeyboardButton('🔗 Connections ', callback_data='coct'), 
+             InlineKeyboardButton('🐱 Filters ', callback_data='filters') 
          ], [ 
-             InKeyboardButton('🏡 Home', callback_data='start')
+             InKeyboardButton('🏡 Home ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
