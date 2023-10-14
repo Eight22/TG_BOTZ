@@ -6,7 +6,7 @@ My Name Is <a href=https://t.me/{}>{}</a>, Just Add Me To Your Group And Enjoy..
 Here Is The Help For My Commands."""
 
  
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
+    ABOUT_TXT = """
 👰 Name : <a href=https://t.me/DesiSearchBot>Shreya Tyagi</a>
  🦹 Creator : <a href='https://t.me/YourX'>YourX</a> 
  🤖 Version : 4.0</b>"""
@@ -19,16 +19,16 @@ Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛ�
 Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
 """
     MANUELFILTER_TXT = """
-Filter Is A Feature Were Users Can Set Automated Replies For A Particular Keyword And I Will Respond Whenever A Keyword Is Found In The Message
+Filter Is A Feature Were Users Can Set Automated Replies For A Particular Keyword And I Will Respond Whenever A Keyword Is Found In The Message.
 <b>ɴᴏᴛᴇ:</b>
 1. This Bot Should Have Privilege.
 2. Only Admin Can Add Filters In A Chat.
 3. Alert Buttons Have A Limit Of 64 Characters.
 Commands And Use:
-• /filter - <code>Add A Filter In A Chat</code>
-• /filters - <code>List All The Filters Of A Chat List</code>
-• /del - <code>Delete A Specific Filter In A Chat</code>
-• /delall - <code>Delete The Whole Filters In A Chat (Chat Owner Only)</code>"""
+• /filter - <code>Add A Filter In A Chat
+• /filters - <code>List All The Filters Of A Chat List
+• /del - <code>Delete A Specific Filter In A Chat
+• /delall - <code>Delete The Whole Filters In A Chat (Chat Owner Only)"""
 
     BUTTON_TXT = """
 
@@ -251,10 +251,10 @@ IMDb Data:
 <b>Welcome To Global Filters Are The Filters Set By Bot Admins Which Will Work On All Groups.</b>
     
 Available Commands:
-• /gfilter - <code>To Create A Global Filter.</code>
-• /gfilters - <code>To View All Global Filters.</code>
-• /delg - <code>To Delete A Particular Global Filter.</code>
-• /delallg - <code>To Delete All Global Filters.</code>"""
+• /gfilter - <code>To Create A Global Filter.
+• /gfilters - <code>To View All Global Filters.
+• /delg - <code>To Delete A Particular Global Filter.
+• /delallg - <code>To Delete All Global Filters."""
     
     FILE_STORE_TXT = """
 <b>Fɪʟᴇ sᴛᴏʀᴇ ɪs ᴛʜᴇ ғᴇᴀᴛᴜʀᴇ ᴡʜɪᴄʜ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ sʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋ ᴏғ ᴀ sɪɴɢʟᴇ ᴏʀ ᴍᴜʟᴛɪᴘʟᴇ ғɪʟᴇs.</b>
