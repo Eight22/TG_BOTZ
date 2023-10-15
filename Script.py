@@ -227,14 +227,15 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🏷 Title:: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
-🌟Rating: <a href={url}/ratings>{rating} / 10</a>
+🌟 Rating: <a href={url}/ratings>{rating} / 10</a>
 ☀️ Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
 ⏰ Result Shown in: {remaining_seconds} 
 
-🗣 Requested by: {message.from_user.mention}<b>"""
+🗣 Requested by: {message.from_user.mention}
+©️ Powered by: {message.chat.title}"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
