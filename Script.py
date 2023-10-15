@@ -219,7 +219,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<i>{file_name}</i>
+    CAPTION = """<b>📂:- {file_name}
 <b>♻️ Size: {file_size}</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>✅ I Found: {qurey}
