@@ -222,10 +222,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     CAPTION = """<b>📂 : {file_name}
 <b> Size ⚙️: {file_size}</b>"""
     IMDB_TEMPLATE_TXT = """
-<b>Query: {qurey}
-
-IMDB_TEMPLATE_TXT = """
-✅ I Found: <code>{query}</code>
+<b>✅ I Found: {query}
 
 🏷 Title:: <a href={url}>{title}</a>
 🎭 Genres: {genres}
