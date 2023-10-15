@@ -7,7 +7,7 @@ Here Is The Help For My Commands."""
 
  
     ABOUT_TXT = """
-👰 Name : <a href=https://t.me/{}>{}</a>
+👰 Name : <a href=https://t.me/DesiSearchBot>Shreya Tyagi</a>
  🦹 Creator : <a href='https://t.me/YourX'>YourX</a> 
  🤖 Version : 4.0</b>"""
 
