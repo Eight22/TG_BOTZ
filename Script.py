@@ -224,8 +224,6 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
-IMDb Data:
-
 <b>🏷 Title</b>: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
@@ -237,7 +235,7 @@ IMDb Data:
 ⏰ Result Shown in: {remaining_seconds} 
 
 🦹 Requested By : {message.from_user.mention}</b>
-⚡ Powered by: <b>{message.chat.title}</b>"""
+⚡ Powered By: <b>{message.chat.title}</b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
