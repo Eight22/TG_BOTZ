@@ -58,7 +58,7 @@ Bot Supports both url and alert inline buttons.
 2. Use /connect And Connect Your Group To The Bot.
 3. Use /settings On Bot's Pm And Turn On Auto Filter On The Settings Menu."""
 
-    CONNECTION_TXT = """ <b>Connections</b>
+    CONNECTION_TXT = """
 
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
@@ -72,7 +72,7 @@ Bot Supports both url and alert inline buttons.
 • /disconnect  - <code>disconnect from a chat</code>
 • /connections - <code>list all your connections</code>"""
 
-    EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
+    EXTRAMOD_TXT = """
 <b>ɴᴏᴛᴇ:</b>
 my features Stay here new features coming soon...  
  <b>✯ Maintained by : <a href=https://t.me/KUSHALHK>OWNER</a></b>
@@ -219,14 +219,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ 
-<b>══════════════════
-🗂 {file_name}
-═══════════════════ 
-𝐒𝐔𝐁𝐒𝐂𝐑𝐈𝐁𝐄 𝐇𝐄𝐑𝐄 👇
-╔══════════════════╗         
-    <a href="https://t.me/TG_LINKS_CHANNEL">🔱 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔱</a>
-╚══════════════════╝</b>"""
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+
+<b> Size ⚙️: {file_size}</b>"""
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
