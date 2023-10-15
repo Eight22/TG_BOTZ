@@ -224,7 +224,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
-IMDB_TEMPLATE = """
+IMDB_TEMPLATE_TXT = """
 ✅ I Found: <code>{query}</code>
 
 🏷 Title:: <a href={url}>{title}</a>
