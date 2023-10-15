@@ -26,7 +26,7 @@ yt-dlp
 youtube-dl
 requests 
   
-openai==0.25.0
+openai
   
  #---others----# 
  opencv-python-headless==4.7.0.68 
