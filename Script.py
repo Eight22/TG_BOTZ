@@ -224,7 +224,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     IMDB_TEMPLATE_TXT = """
 <b>✅ I Found: {query}
 
-<b>🏷 Title:: <a href={url}>{title}</a>
+🏷 Title:: <a href={url}>{title}</a>
 🎭 Genres: {genres}
 📆 Year: <a href={url}/releaseinfo>{year}</a>
 🌟Rating: <a href={url}/ratings>{rating} / 10</a>
@@ -234,8 +234,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🎛 Countries : <code>{countries}</code>
 ⏰ Result Shown in: {remaining_seconds} 
 
-🗣 Requested by: {message.from_user.mention}<b>
-©️ Powered by: <b>{message.chat.title}</b>"""
+🗣 Requested by: {message.from_user.mention}<b>"""
     
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
