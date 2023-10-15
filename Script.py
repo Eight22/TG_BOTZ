@@ -231,7 +231,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 🦉 Languages : <code>{languages}</code>
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
-🦅 Countries : <code>{countries}</code>
+🌐 Countries : <code>{countries}</code>
 ⏰ Result Shown in: {remaining_seconds} 
 
 🦹 Requested By : {message.from_user.mention}</b>
