@@ -224,7 +224,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
-IMDB_TEMPLATE = """✅ I Found: <code>{query}</code>
+IMDB_TEMPLATE = """
+✅ I Found: <code>{query}</code>
 
 🏷 Title:: <a href={url}>{title}</a>
 🎭 Genres: {genres}
