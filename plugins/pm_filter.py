@@ -1396,7 +1396,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "manuelfilter":
         buttons = [[
             InlineKeyboardButton('🏄 Back', callback_data='filters'),
-            InlineKeyboardButton('🚀 Button, callback_data='button')
+            InlineKeyboardButton('🚀 Buttons, callback_data='button')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
