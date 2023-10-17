@@ -729,7 +729,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                 for file in files:
                     cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
             else:
-                cap = f"<b>✅ Search Results:- {search}\n🦹 Requested By:- {message.from_user.mention}\n🦉 Result Show In:- {remaining_seconds} Seconds\nPowered By:- : {message.chat.title}\n♻️ Message Delete In 5 Minutes ⚠️\n\n</b>"
+                cap = f"<b>✅ Search Results:- {search}\n🦹 Requested By:- {message.from_user.mention}\n🦉 Result Show In:- {remaining_seconds} Seconds\nPowered By:- : {message.chat.title}\n🎬 Total File Found :- {total_results} \n♻️ Message Delete In 5 Minutes ⚠️\n\n</b>"
                 cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
                 for file in files:
                     cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file.file_id}'>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}\n\n</a></b>"
