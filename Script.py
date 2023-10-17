@@ -45,7 +45,6 @@ Bot Supports both url and alert inline buttons.
 <code>[Button Text](buttonalert:This is an alert message)</code>"""
 
     AUTOFILTER_TXT = """
-
 <b>Note:</b>
 1. Make me the admin of your channel if it's private.
 2. make sure that your channel does not contains camrips, porn and fake files.
@@ -58,7 +57,6 @@ Bot Supports both url and alert inline buttons.
 3. Use /settings On Bot's Pm And Turn On Auto Filter On The Settings Menu."""
 
     CONNECTION_TXT = """
-
 - Used to connect bot to PM for managing filters 
 - it helps to avoid spamming in groups.
 
@@ -238,7 +236,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 ⚡ Powered By: <b>{message.chat.title}</b>"""
     
     ALL_FILTERS = """
-<b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
+<b>Hey {}, These Are Three Types Of Filters.</b>"""
     
     GFILTER_TXT = """
 <b>Welcome To Global Filters Are The Filters Set By Bot Admins Which Will Work On All Groups.</b>
