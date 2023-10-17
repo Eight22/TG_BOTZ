@@ -31,7 +31,6 @@ Commands And Use:
 • /delall - <code>Delete The Whole Filters In A Chat (Chat Owner Only)"""
 
     BUTTON_TXT = """
-
 Bot Supports both url and alert inline buttons.
 
 <b>NOTE:</b>
