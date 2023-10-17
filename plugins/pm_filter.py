@@ -73,8 +73,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if user_id in ADMINS: return # ignore admins
     await message.reply_text(
-         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/movies_hub_official1>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
-         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/movies_hub_official1")]])
+         text=f"<b>ʜᴇʏ {user} 😍 ,\n\nʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ. ʀᴇǫᴜᴇsᴛ ɪᴛ ɪɴ ᴏᴜʀ <a href=https://t.me/PostWild>ᴍᴏᴠɪᴇ ɢʀᴏᴜᴘ</a> ᴏʀ ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</b>",   
+         reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📝 ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ", url=f"https://t.me/YourX")]])
     )
     await bot.send_message(
         chat_id=LOG_CHANNEL,
@@ -695,12 +695,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         if mkinact:
             await query.message.edit_text(
-                f"Dɪsᴄᴏɴɴᴇᴄᴛᴇᴅ ғʀᴏᴍ **{title}**",
+                f"Disconnected Form **{title}**",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
         else:
             await query.message.edit_text(
-                f"Sᴏᴍᴇ ᴇʀʀᴏʀ ᴏᴄᴄᴜʀʀᴇᴅ!!",
+                f"⚠️ Some Error Occurred",
                 parse_mode=enums.ParseMode.MARKDOWN
             )
         return await query.answer(MSG_ALRT)
@@ -816,7 +816,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 else:
                     await query.answer(f"Hey {query.from_user.first_name}, This Is Not Your Serach Result,\nSearch Your's !", show_alert=True)
         except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
+            await query.answer('Unblock The Bot !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start={ident}_{file_id}")
         except Exception as e:
@@ -834,7 +834,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=allfiles_{key}")
                 return
         except UserIsBlocked:
-            await query.answer('Uɴʙʟᴏᴄᴋ ᴛʜᴇ ʙᴏᴛ ᴍᴀʜɴ !', show_alert=True)
+            await query.answer('Unblock The Bot !', show_alert=True)
         except PeerIdInvalid:
             await query.answer(url=f"https://telegram.me/{temp.U_NAME}?start=sendfiles3_{key}")
         except Exception as e:
@@ -845,7 +845,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
-            return await query.answer('Nᴏ sᴜᴄʜ ғɪʟᴇ ᴇxɪsᴛ.')
+            return await query.answer('No Such File Exist.')
         files = files_[0]
         title = files.file_name
         size = get_size(files.file_size)
@@ -1248,7 +1248,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
         except Exception as e:
             print(e)  # print the error message
-            await query.answer(f"☣something went wrong sweetheart\n\n{e}", show_alert=True)
+            await query.answer(f"☣ Something Went Wrong \n\n{e}", show_alert=True)
             return
     # don't change anything without contacting me @LazyDeveloperr
 
@@ -1645,7 +1645,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
     elif query.data == "rendering_info":
         buttons = [[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
+            InlineKeyboardButton('🏄 Back', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
