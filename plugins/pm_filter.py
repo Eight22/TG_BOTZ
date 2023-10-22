@@ -1233,18 +1233,18 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await xo.delete()
 
             await log_msg.reply_text(
-                text=f"•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ꜰᴏʀ ɪᴅ #{user_id} \n👻 Username : {username} \n🎬 Name : {fileName}",
+                text=f"🔗 Your Link Generated \n🆔 ID :- {user_id} \n👻 Username : {username} \n\n🎬 File Name : {fileName}",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("◀️ Fast Download", url=lazy_download),  # we download Link
-                                                    InlineKeyboardButton('▶ Watch online', url=lazy_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 Download", url=lazy_download),  # we download Link
+                                                    InlineKeyboardButton('⚡ Stream Now', url=lazy_stream)]])  # web stream Link
             )
             await query.message.reply_text(
-                text="•• ʟɪɴᴋ ɢᴇɴᴇʀᴀᴛᴇᴅ ☠︎⚔",
+                text="🔗 Link Generated Successfully 🚀",
                 quote=True,
                 disable_web_page_preview=True,
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("◀️ Fast Download", url=lazy_download),  # we download Link
-                                                    InlineKeyboardButton('▶ Watch online', url=lazy_stream)]])  # web stream Link
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("📥 Download", url=lazy_download),  # we download Link
+                                                    InlineKeyboardButton('⚡ Stream Now', url=lazy_stream)]])  # web stream Link
             )
         except Exception as e:
             print(e)  # print the error message
