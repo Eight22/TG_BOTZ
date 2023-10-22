@@ -1322,17 +1322,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "help":
         buttons = [[
-             InlineKeyboardButton('⚙️ ᴀᴅᴍɪɴ ᴏɴʟʏ 🔧', callback_data='admin'),
+             InlineKeyboardButton('🦹 Admin Only', callback_data='admin'),
          ], [ 
              InlineKeyboardButton('📂 File Store', callback_data='store_file'),   
              InlineKeyboardButton('🌧️ Telegraph', callback_data='tele') 
          ], [ 
              InlineKeyboardButton('♻️ Connections', callback_data='coct'),
-             InlineKeyboardButton('ꜱᴏɴɢ', callback_data='song'),
+             InlineKeyboardButton('🎵 Song', callback_data='song'),
              InlineKeyboardButton('⚡ Filters', callback_data='filters')
          ], [
-             InlineKeyboardButton('ꜱʜᴀʀᴇ ᴛᴇxᴛ', callback_data='share'),
-             InlineKeyboardButton('ᴊ-ꜱᴏɴ', callback_data='json')  
+             InlineKeyboardButton('📝 Share Text', callback_data='share'),
+             InlineKeyboardButton('🚀 J-Son', callback_data='json')  
          ], [             
              InlineKeyboardButton('🏡 Home', callback_data='start')
         ]]
